@@ -1,5 +1,5 @@
 library(shiny)
-library(ggplot2)  # for the diamonds dataset
+library(ggplot2)
 library(rvest)
 library(DT)
 library(xml2)
