@@ -2,7 +2,6 @@ library(shiny)
 library(ggplot2)
 library(rvest)
 library(DT)
-library(xml2)
 # code here
 url <- "http://www.pjm.com/pub/account/lmpgen/lmppost.html"
 LMP <- html_table(url %>% read_html() %>% html_nodes(xpath='/html/body/center[4]/table'))
