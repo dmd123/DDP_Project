@@ -1,6 +1,6 @@
 <h3>Course Project:</h3>
 <h4>Shiny Application and Reproducible Pitch</h4>
-Submit this assignment before the deadline, April 10, 11:59 PM PDT<br>
+Submit this assignment before the deadline, June 19, 11:59 PM PDT<br>
 
 <h5>This peer assessed assignment has two parts:</h5>
 <ol type="1">
@@ -8,9 +8,10 @@ Submit this assignment before the deadline, April 10, 11:59 PM PDT<br>
 <li>Use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.</li>
 </ol>
 
-<h5>Part 1 – Shiny Application</h5>
+<h5>Part 1: Shiny Application</h5>
+Write a shiny application with associated supporting documentation.
 <ul>
-<li>Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application</li>
+<li>Documentation should be thought of as whatever a user will need to get started using your application</li>
 <li>Deploy the application on Rstudio's shiny server</li>
 <li>Share the application link by pasting it into the provided text box</li>
 <li>Share your server.R and ui.R code on github</li>
@@ -20,12 +21,12 @@ Submit this assignment before the deadline, April 10, 11:59 PM PDT<br>
 <li>Some operation on the ui input in sever.R<br>
 <li>Some reactive output displayed as a result of server calculations</li>
 <li>Enough documentation so that a novice user could use your application</li>
-<li>Documentation should be at the Shiny website itself. Do not post to an external link</li>
+<li>Documentation should be at the Shiny website itself. Do not post an external link.</li>
 <li>The Shiny application in question is entirely up to you</li>
 </ul></Ul>
 
-<h5>Part 2 –Reproducible Pitch Presentation</h5>
-OK, you've made your shiny app, now it's time to make your pitch. You get 5 slides (inclusive of the title slide) to pitch your app. You're going to create a web page using Slidify or Rstudio Presenter with an html5 slide deck.
+<h5>Part 2: Reproducible Pitch Presentation</h5>
+Create a web page using Slidify or Rstudio Presenter with an html5 slide deck.
 <ul>
 <li>5 slides to pitch our idea done in Slidify or Rstudio Presenter</li>
 <li>Push your presentation to github or Rpubs</li>
