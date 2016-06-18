@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+shinyUI(
+        fluidPage(
+                includeHTML("documentation.html"),
+                sidebarPanel(
+                        h4(strong("Filter by Node")),
+                        uiOutput("nameUI"),
+                        uiOutput("typeUI")
+                        ),
+                mainPanel(
+                        fluidRow(DT::dataTableOutput("table"))
+                )
+=======
 library(shiny)
 library(ggplot2)
 library(rvest)
@@ -25,5 +38,6 @@ shinyUI(
                         column(4, selectInput(inputId="Type", label = "Type:", choices = c("All", unique(as.character(LMP$Type)))))
                 ),
                 fluidRow(DT::dataTableOutput("table"))
+>>>>>>> 5259d71b00263863cf0d8b540346a88335fdc389
         )
 )
